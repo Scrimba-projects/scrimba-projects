@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    height: 100vh;
+    background: #EDEDED;
+}
+
+/* header */
+header {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;
+    height: 67px;
+}
+
+.logo {
+    height: 90%;
+    width: 127px;
+    margin-left: 4%;
+}
+
+.user-avatar, .avatar {
+    width: 34px;
+    height: 34px;
+    margin-right: 4.27%;
+    border-radius: 50%;
+}
+
+/* article */
+article {
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.user-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 34px;
+    padding: 10px;
+}
+
+.user-full-name {
+    display: block;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.user-location {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-body {
+    padding: 21px 19px 16px 10px;
+}
+
+.post-icons img {
+    height: 23px;
+    margin-right: 20px;
+    filter: contrast(100%);
+}
+
+.post-icons img:hover {
+    /*filter: invert(11%) sepia(94%) saturate(5981%) hue-rotate(1deg) brightness(100%) contrast(115%);*/
+    filter: invert(35%) sepia(83%) saturate(6575%) hue-rotate(351deg) brightness(89%) contrast(134%);
+}
+
+.post-like-count {
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.username-caption {
+    margin-top: 12px;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+/*
+create first post
+use semantic HTML
+add hover effects to the icons
+
+use javascript to render all posts
+increase the likes when double click
+*/
