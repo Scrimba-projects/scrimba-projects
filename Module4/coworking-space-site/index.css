@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #282828;
+    color: whitesmoke;
+}
+
+.item-img {
+    width: 100%;
+    display: block;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.icon {
+    width: 25px;
+}
+
+.align-right {
+    margin-left: auto;
+    /*    margin auto helps align items in the container to
+      right, left, top, bottom etc. we set opposite margin to auto
+      => if we want to align bottom, put margin-top: auto
+      */
+}
+
+ul {
+    list-style-type: none;
+    padding: 25px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+}
+
+.caption {
+    margin: 0 25px;
+}
+
+.item {
+    position: relative;
+}
+
+.img-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.chatbox-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #dda15e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+}
+
+.chatbox-img {
+    width: 50%;
+    margin: auto;
+}
