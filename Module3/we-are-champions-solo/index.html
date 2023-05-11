@@ -1,7 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!--font awesome-->
+    <link crossorigin="anonymous"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
+
     <title>We are the Champions</title>
     <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,33 +27,18 @@
         <img src="./assets/freddie.png" alt="freddie" class="logo">
         <h1>We are the Champions</h1>
         <div class="input-fields">
-            <textarea placeholder="Write your endorsement here" class="large-textarea"></textarea>
+            <textarea id="endorsement-text" placeholder="Write your endorsement here" class="large-textarea"></textarea>
         </div>
         <div class="input-fields">
-            <textarea rows="1" aria-multiline="false" class="small-textarea" placeholder="From"></textarea>
-            <textarea rows="1" class="small-textarea" placeholder="To"></textarea>
+            <textarea id="endorsement-from" rows="1" aria-multiline="false" class="small-textarea" placeholder="From"></textarea>
+            <textarea id="endorsement-to" rows="1" class="small-textarea" placeholder="To"></textarea>
         </div>
 
-        <button>Publish</button>
+        <button id="publishBtn">Publish</button>
         <h2>- Endorsements - </h2>
 
         <ul id="endorsements-list">
-            <li>
-                <div class="post-to-from">
-                    To Leanne
-                </div>
-                <div class="post-body">
-                    Leanne! Thank you so much for helping me with the March accounting. Saved so much time because of you! 💜 Frode
-                </div>
-                <div class="post-summary">
-                    <div class="post-to-from">From Frode</div>
-                    <div class="post-likes"></div>
-                </div>
-            </li>
-            <li>
-                Hi Bob! Your React Router course is so good. The students are going to LOVE IT. I’m so excited for the
-                launch :) 🔥 Per
-            </li>
+
         </ul>
     </div>
     <script src="index.js" type="module"></script>
