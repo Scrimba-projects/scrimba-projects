@@ -10,10 +10,45 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap"
+          rel="stylesheet">
 </head>
 <body>
     <div class="container">
+        <img src="./assets/freddie.png" alt="freddie" class="logo">
         <h1>We are the Champions</h1>
+        <div class="input-fields">
+            <textarea placeholder="Write your endorsement here" class="large-textarea"></textarea>
+        </div>
+        <div class="input-fields">
+            <textarea rows="1" aria-multiline="false" class="small-textarea" placeholder="From"></textarea>
+            <textarea rows="1" class="small-textarea" placeholder="To"></textarea>
+        </div>
+
+        <button>Publish</button>
+        <h2>- Endorsements - </h2>
+
+        <ul id="endorsements-list">
+            <li>
+                <div class="post-to-from">
+                    To Leanne
+                </div>
+                <div class="post-body">
+                    Leanne! Thank you so much for helping me with the March accounting. Saved so much time because of you! 💜 Frode
+                </div>
+                <div class="post-summary">
+                    <div class="post-to-from">From Frode</div>
+                    <div class="post-likes"></div>
+                </div>
+            </li>
+            <li>
+                Hi Bob! Your React Router course is so good. The students are going to LOVE IT. I’m so excited for the
+                launch :) 🔥 Per
+            </li>
+        </ul>
     </div>
     <script src="index.js" type="module"></script>
 </body>

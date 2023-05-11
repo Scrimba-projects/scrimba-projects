@@ -1,4 +1,108 @@
 html, body {
     margin: 0;
     padding: 0;
+    background: #1B1924;
+}
+
+.container {
+    padding: 51px 36px;
+    text-align: center;
+}
+
+.logo {
+    width: 51px;
+    height: 51px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+h2 {
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+.large-textarea {
+    padding: 12px 16px;
+    height: 100px;
+}
+
+.small-textarea {
+    padding: 10px 8px;
+    text-align: center;
+}
+
+textarea {
+    background: #444059;
+    color: #8F8F8F;
+    border-radius: 8px;
+    resize: none;
+
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+
+    flex-grow: 1;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    flex-grow: 1;
+    align-content: stretch;
+    margin: 9px auto;
+}
+
+
+button {
+    width: 100%;
+    padding: 20px 30px;
+
+    font-family: 'Josefin Sans', serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+
+    background: #28A9F1;
+    color: #04131C;
+    border-radius: 8px;
+    border-style: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    color: #1B1924;
+    background: #FFFFFF;
+    padding: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+
+    font-family: 'Inter', serif;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.post-to-from {
+    font-weight: 700;
+    color: #1B1924;
+}
+
+.post-body{
+    padding-top: 13px;
+    padding-bottom: 9px;
 }
