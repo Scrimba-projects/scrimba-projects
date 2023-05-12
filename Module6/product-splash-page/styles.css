@@ -57,6 +57,8 @@ p {
 .intro {
     color: #fff;
     background-color: #9480e4;
+    background-image: url("images/intro-bg.png");
+    background-size: cover;
 
     min-height: 250px;
     justify-content: center;
