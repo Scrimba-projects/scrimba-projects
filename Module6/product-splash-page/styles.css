@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #404040;
@@ -26,8 +30,18 @@ p {
 }
 
 .beta-text,
+.top-text,
 .subheading {
     text-transform: uppercase;
+}
+
+.top-text {
+    font-size: 0.875rem;
+    font-weight: 900;
+    padding-top: 0.25em;
+    border-top: 5px solid;
+    order: -1;
+    margin: 0 auto;
 }
 
 .fine-print {
@@ -65,8 +79,9 @@ p {
     background-size: cover;
 
     min-height: 250px;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+    padding-bottom: 1.5em;
 }
 
 /* ====================
@@ -81,6 +96,11 @@ p {
 .img-main {
     width: 120px;
     border-radius: 50%;
+}
+
+.main-content p,
+form {
+    max-width: 450px;
 }
 
 /* =================
@@ -122,8 +142,7 @@ input:focus {
 }
 
 .btn-primary:hover,
-.btn-primary:focus
-{
+.btn-primary:focus {
     background-color: #b7a7f6;
 }
 
