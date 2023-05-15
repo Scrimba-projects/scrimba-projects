@@ -123,7 +123,6 @@ h1 {
     }
 
     .labels {
-        display: block;
         background: var(--primary-color);
         color: white;
         text-transform: uppercase;
