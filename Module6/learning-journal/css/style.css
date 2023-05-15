@@ -19,26 +19,26 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 17px 20px;
+    padding: 1em 1.25em;
 }
 
 .logo {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 15px;
+    font-size: 0.875rem; /* 14px; */
+    line-height: 1.07em; /* 15px; */
     letter-spacing: -0.03em;
 
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 3px;
+    gap: 0.2em; /* 3px; */
     color: #0E0E0E;
 }
 
 .logo img {
-    width: 23px;
-    height: 23px;
+    width: 1.65em; /* 23px; */
+    height: 1.65em; /* 23px; */
 }
 
 .menu {
@@ -48,12 +48,12 @@ header {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 0.75rem; /* 12px; */
+    line-height: 1.25em; /* 15px; */
 
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 3.33em; /* 40px; */
     text-transform: uppercase;
 }
 
@@ -69,7 +69,7 @@ main {
 
     display: flex;
     flex-direction: column;
-    padding-bottom: 43px;
+    padding-bottom: 2.69em; /*  43px; */
 }
 
 .hero-article {
@@ -81,9 +81,9 @@ main {
     background-image: url("../images/mobile-images/article-image-hero.png");
     background-size: cover;
 
-    height: 293px;
+    height: 18.31em; /* 293px;*/
 
-    padding: 0 20px 25px 20px;
+    padding: 0 1.25em 1.56em 1.25em; /* 0 20px 25px 20px;*/
 
     display: flex;
     flex-direction: column;
@@ -94,18 +94,18 @@ main {
     text-transform: uppercase;
 
     font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 0.75rem; /* 12px; */
+    line-height: 1.25em; /* 15px; */
 }
 
 h1, p {
     margin: 0;
-    padding-top: 8px;
+    padding-top: .5em; /*8px;*/
 }
 
 .hero-article h1 {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2rem; /* 32px; */
     line-height: 108.2%;
     letter-spacing: -0.03em;
 
@@ -113,10 +113,10 @@ h1, p {
 }
 
 .articles {
-    padding: 34px 20px;
+    padding: 2.125em 1.25em; /* 34px 20px;*/
     display: grid;
     grid-template-columns: repeat(auto-fill, 1fr);
-    grid-gap: 40px;
+    grid-gap: 2.5em; /* 40px; */
 }
 
 .article {
@@ -124,37 +124,36 @@ h1, p {
 }
 
 .article-image {
-    border-radius: 3px;
+    border-radius: 0.18em; /*3px;*/
     width: 100%;
-    height: 232px;
     background-size: cover;
 }
 
 .article-date {
-    margin-top: 14px;
+    margin-top: 1em; /* 14px;*/
     color: #000000;
 
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 0.875em; /* 14px; */
+    line-height: 1.286em; /* 18px; */
 }
 
 .article-title {
-    margin-top: 14px;
+    margin-top: 0.583em; /* 14px; */
     color: #141414;
 
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem; /* 24px; */
     line-height: 1.08;
 }
 
 .article-body {
-    margin-top: 9px;
+    margin-top: 0.563em; /* 9px;*/
     color: #505050;
 
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem; /*16px;*/
     line-height: 1.25;
 }
 
@@ -164,8 +163,8 @@ h1, p {
 
 .view-more a {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1rem; /* 16px;*/
+    line-height: 1.25em; /* 20px;*/
 
     color: #000000;
     text-decoration-line: underline;
@@ -180,8 +179,8 @@ footer {
     width: 100%;
     background-color: #202020;
 
-    padding-top: 37px;
-    padding-bottom: 37px;
+    padding-top: 2.32em; /*37px;*/
+    padding-bottom: 2.32em; /*37px;*/
 
     display: flex;
     flex-direction: column;
@@ -193,7 +192,7 @@ footer {
 
     text-transform: capitalize;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 0.75rem; /* 12px;*/
     line-height: 1.08;
     letter-spacing: -0.03em;
 }
@@ -202,7 +201,7 @@ footer {
     color: #D7D7D7;
 
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem; /* 12px;*/
     line-height: 1.25;
 }
 
@@ -210,54 +209,54 @@ footer {
 
     /* header area */
     header {
-        padding: 24px 43px;
+        padding: 1.5em 2.68em;
     }
 
     .logo {
-        font-size: 20px;
+        font-size: 1.25rem; /* 20px; */
     }
 
     .logo img {
-        width: 34px;
-        height: 34px;
+        width: 1.7em; /* 34px; */
+        height:1.7em; /* 34px; */
     }
 
     .menu {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 1rem; /*16px;*/
+        line-height: 1.25em; /* 20px;*/
     }
 
 
     /* main area */
     main {
-        padding-bottom: 51px;
+        padding-bottom: 3.19em; /*51px;*/
     }
 
     .hero-article {
         background-image: url("../images/desktop-images/blog-image-hero.png");
-        height: 488px;
-        padding: 0 53px 59px 53px;
+        height: 30.5em; /* 488px;*/
+        padding: 0 3.2em 3.68em 3.2em; /*0 53px 59px 53px;*/
     }
 
     .article-date-hero {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 1rem; /*16px;*/
+        line-height: 1.25em; /* 20px;*/
     }
 
     .hero-article h1 {
-        font-size: 40px;
+        font-size: 2.5rem; /* 40px;*/
     }
 
     .hero-article p {
-        font-size:16px;
-        line-height: 20px;
+        font-size: 1rem; /*16px;*/
+        line-height: 1.25em; /* 20px;*/
         width: 60%;
     }
 
     .articles {
-        padding: 53px 53px;
-        grid-template-columns: repeat(auto-fill, minmax(309px, 1fr));
-        grid-gap: 46px;
+        padding: 3.312em 3.312em; /*53px 53px;*/
+        grid-template-columns: repeat(auto-fill, minmax(19.31em, 1fr));
+        grid-gap: 2.875em; /* 46px;*/
     }
 
 }
