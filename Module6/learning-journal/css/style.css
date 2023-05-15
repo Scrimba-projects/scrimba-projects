@@ -205,6 +205,34 @@ footer {
     line-height: 1.25;
 }
 
+/* about me page */
+.details {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+
+    /*height: 18.31em; !* 293px;*!*/
+
+    padding: 2.5em 1em 1.56em 1.25em; /* 0 20px 25px 20px;*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.details img {
+    padding: 1em 0;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.profile-image {
+    width: 182px;
+    height: 182px;
+}
+
 @media (min-width: 1085px) {
 
     /* header area */
@@ -218,7 +246,7 @@ footer {
 
     .logo img {
         width: 1.7em; /* 34px; */
-        height:1.7em; /* 34px; */
+        height: 1.7em; /* 34px; */
     }
 
     .menu {
