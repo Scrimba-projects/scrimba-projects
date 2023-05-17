@@ -1,0 +1,7 @@
+{
+  "name": "scrimba-projects",
+  "version": "1.0.0",
+  "devDependencies": {
+    "vite": "^4.3.6"
+  }
+}
