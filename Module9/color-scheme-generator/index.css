@@ -2,81 +2,118 @@ body, html {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100vh;
+}
+
+*, *:before, *:after {
     box-sizing: border-box;
 }
 
-header {
+.dark-mode {
     background: #1F2937;
-    padding: 28px 19px;
+    color: #D5D4D8;
+}
+
+.btn-dark {
+    background-color: #3D4B60;
+    color: #FFFFFF;
+}
+
+.container {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/* header section */
+header {
+    height: 90px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: stretch;
     gap: 10px;
 }
 
-.eye-dropper {
-    width: 51px;
-    height: 34px;
+.color-picker {
+    width: 61px;
+    height: 43px;
+
     background: #E5E5E5;
     border: 0.5px solid #D1D5DB;
-    padding: 5px;
+    margin: auto 12px;
 }
 
-#dd-colors {
+.color-scheme {
     height: 42px;
-    width: 312px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 
-    color: #D5D4D8;
-    background-color: #1F293A;
     border: 1px solid #D1D5DB;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
 
     padding: 9px 13px;
+    margin: auto 0;
+
     flex-grow: 1;
     order: 0;
 }
 
+.color-scheme-option {
+    padding-left: 39px;
+    /*padding: 9px 37px 9px 13px;*/
+}
+
 #btn-get-color-scheme {
+    width: 123px;
+
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
 
-    background-color: #3D4B60;
-    color: #FFFFFF;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 4px;
+
+    margin: auto 15px auto 0;
+    padding: 13px 9px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/* main section */
 main {
-    background-color: #1F2937;
-    color: #D5D4D8;
+    flex-grow: 1;
 
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 100vh;
 }
 
 .clr-div {
     flex-grow: 1;
+
+    min-height: 550px;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    height: 100vh;
+    align-content: space-between;
 }
 
 .clr-color {
-    height: 80%;
-    background-color: #ef5839;
+    background: #ef5839;
+    flex-grow: 1;
 }
 
 .clr-hex {
-    height: 46px;
-    background-color: #0F8CDF;
+    align-self: flex-end;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 11px auto;
 }
