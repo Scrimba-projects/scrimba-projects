@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background: #23252C;
+    color: white;
+    padding: 44px 116px;
+}
+
+.container {
+    background-color: #1A1B21;
+    height: 100vh;
+
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* info area */
+.info {
+    background-color: #1A1B21;
+    text-align: center;
+}
+
+.info > img {
+    width: 100%;
+}
+
+.info > h1,
+.info > p {
+    margin: 0;
+}
+
+.info > h1 {
+    padding-top: 21px;
+    font-size: 25px;
+}
+
+.info > p {
+    font-size: 12px;
+    color: #F3BF99;
+}
+
+.info > small {
+    font-size: 10px;
+    line-height: 1.5;
+
+    color: #F5F5F5;
+}
+
+.info-cta {
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 17px;
+}
+
+.info-cta > button {
+    width: 115px;
+    height: 34px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    flex-grow: 1;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.btnEmail {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    color: #374151;
+}
+
+.btnLinkedin {
+    background: #5093E2;
+    border: none;
+    color: #FFFFFF;
+}
+
+/* about & interests area */
+.about, .interests {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.about {
+    margin-top: 33px;
+}
+
+.interests {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.title {
+    margin: 0;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.description {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.5;
+
+    color: #DCDCDC;
+}
+
+/* footer area */
+.footer {
+    background-color: #161619;
+    height: 64px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+   margin-top: auto;
+}
+
+.f-icon {
+    margin-right: 12px;
+    width:13px;
+    height:13px;
+}
