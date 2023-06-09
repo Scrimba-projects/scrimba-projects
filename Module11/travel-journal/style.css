@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+.header {
+    background-color: #F55A5A;
+    height: 55px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+    font-weight: 500;
+    font-size: 14.5px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+}
+
+.logo {
+    width: 24px;
+}
+
+/* card section */
+.cards-list {
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    margin-left: 39px;
+    margin-right: 39px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #F5F5F5;
+
+    gap: 19px;
+}
+
+.card-image {
+    width: 126px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card-details {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.card-pin {
+    margin-right: 4px;
+}
+
+.card-location {
+    margin-right: 12px;
+}
+
+.card-google {
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.card-title {
+    margin: 4px 0 14px 0;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.card-period {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.card-description {
+    line-height: 1.5;
+}

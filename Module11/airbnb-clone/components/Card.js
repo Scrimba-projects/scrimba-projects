@@ -3,13 +3,6 @@ import React from "react"
 export default function Card(props) {
     console.log(props.item)
     let item = props.item;
-    // img={l.coverImg}
-    // rating={l.stats.rating}
-    // reviewCount={l.stats.reviewCount}
-    // country={l.location}
-    // title={l.title}
-    // price={l.price}
-    // openSpots={l.openSpots}
 
     let badgeText
     if (item.openSpots === 0) {
