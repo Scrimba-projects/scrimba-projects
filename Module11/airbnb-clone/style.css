@@ -4,4 +4,122 @@
 
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+nav {
+    height: 70px;
+    padding: 22px 30px;
+    box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 25px;
+}
+
+.main-photo {
+    width: 396px;
+    height: 232px;
+
+    display: block;
+    margin: 26px auto 32px;
+}
+
+.hero {
+    padding-bottom: 15px;
+}
+
+.hero > h1 {
+    padding-left: 36px;
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+}
+
+.hero > p {
+    padding-left: 36px;
+    width: 60%;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+
+    color: #222222;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-img > img {
+    width: 176px;
+    height: 235px;
+    border-radius: 9px;
+}
+
+.card-rating {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+.card-rating > img {
+    width: 14px;
+    height: 14px;
+    border-radius: 0.5px;
+}
+
+.card-rating > span {
+    color: #222222;
+}
+
+.card-rating > div {
+    color: #918E9B;
+}
+
+.card-summary {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.1;
+    color: #222222;
+}
+
+.card-price {
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
+
+.card-price > b{
+    font-weight: 600;
+}
+
+.cards-list {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    padding-left: 36px;
+}
+
+.card-badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
