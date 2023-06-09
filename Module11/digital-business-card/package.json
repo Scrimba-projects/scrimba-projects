@@ -13,6 +13,7 @@
     "babel-loader": "^7.0",
     "babel-preset-env": "*",
     "babel-preset-react": "*",
+    "babel-preset-stage-0": "^6.24.1",
     "webpack": "^2.0"
   },
   "scripts": {
