@@ -242,3 +242,69 @@ body {
     width: 24px;
     height: 24px;
 }
+
+/* testimonials */
+.testimonials {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.testimonial {
+    width: 958px;
+    height: 400px;
+    background: #2545B8;
+
+    padding: 0 32px 0 32px;
+
+    display: flex;
+    gap: 32px;
+}
+
+.testimonial-image {
+    width: 384px;
+    height: 464px;
+    margin-top: -32px;
+    border-radius: 12px;
+    box-shadow: 0 10px 10px -5px #0000000A;
+}
+
+.testimonial-image:hover {
+    box-shadow: 0 20px 25px -5px #0000001A;
+}
+
+.testimonial-text {
+    width: 100%;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.testimonial-footer {
+    margin-top: 24px;
+}
+
+.testimonial-footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial-footer-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.testimonial-footer-role {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
