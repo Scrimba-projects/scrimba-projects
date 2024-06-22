@@ -1,0 +1,13 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "latest"
+  },
+  "name": "project",
+  "scripts": {
+    "start": "node_modules/.bin/vite",
+    "dev": "node_modules/.bin/vite",
+    "build": "node_modules/.bin/vite build",
+    "preview": "node_modules/.bin/vite preview"
+  }
+}
