@@ -13,17 +13,17 @@ const inputFieldEl = document.getElementById("input-field")
 const addButtonEl = document.getElementById("add-button")
 const shoppingList = document.getElementById("shopping-list")
 
+inputFieldEl.addEventListener("keydown", function (key) {
+   if (key["code"] === "Enter") {
+       addItemInDB();
+   }
+})
 
 addButtonEl.addEventListener("click", function () {
-    let inputValue = {
-        "value": inputFieldEl.value,
-        "order": 0
-    }
-    if (inputValue) {
-        push(shoppingListInDB, inputValue)
-        clearInputField();
-    }
+    addItemInDB();
 })
+
+
 
 onValue(shoppingListInDB, function (snapshot) {
     clearShoppingList()
@@ -33,13 +33,31 @@ onValue(shoppingListInDB, function (snapshot) {
     }
 
     let itemsArray = Object.entries(snapshot.val())
+    itemsArray.sort( (a, b) => a[1].order - b[1].order)
 
-    console.log(itemsArray);
+  // itemsArray.forEach((e) => {
+  //     console.log(`${e[1].order} ${e[1].value}`);
+  // })
 
-    for (let item of itemsArray.sort()) {
+    for (let item of itemsArray) {
         addItemToShoppingList(item);
     }
 })
+
+function addItemInDB() {
+    if (inputFieldEl.value === "") return;
+
+    let itemsCount = document.getElementsByTagName("li");
+
+    let inputValue = {
+        "value": inputFieldEl.value,
+        "order": itemsCount.length + 1
+    }
+    if (inputValue) {
+        push(shoppingListInDB, inputValue)
+        clearInputField();
+    }
+}
 
 function addItemToShoppingList(item) {
     let newEl = document.createElement("li");
